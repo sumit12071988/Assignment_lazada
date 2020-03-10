@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Hub Spot Regression Suite]">
+  <listeners>
+    <listener class-name="com.qa.lazada.listeners.ExtentReportListener"/>
+  </listeners>
+  <test thread-count="5" name="Lazada Product page Test(failed)">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="com.qa.lazada.tests.ProductPageTest">
+        <methods>
+          <include name="verifyProductPageTitle"/>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.qa.lazada.tests.ProductPageTest -->
+    </classes>
+  </test> <!-- Lazada Product page Test(failed) -->
+</suite> <!-- Failed suite [Hub Spot Regression Suite] -->
