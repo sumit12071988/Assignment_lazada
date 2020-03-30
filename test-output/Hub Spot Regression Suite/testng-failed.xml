@@ -4,16 +4,19 @@
   <listeners>
     <listener class-name="com.qa.lazada.listeners.ExtentReportListener"/>
   </listeners>
-  <test thread-count="5" name="Lazada Product page Test(failed)">
+  <test thread-count="5" name="Lazada End To End Flow Test(failed)">
     <parameter name="browser" value="chrome"/>
     <classes>
-      <class name="com.qa.lazada.tests.ProductPageTest">
+      <class name="com.qa.lazada.tests.EndToEndPurchaseTest">
         <methods>
           <include name="verifyProductPageTitle"/>
           <include name="setUp"/>
+          <include name="verifyProfilePageTitleTest"/>
+          <include name="verifyhomePageTitle"/>
           <include name="tearDown"/>
+          <include name="verifyCheckoutPageTitle"/>
         </methods>
-      </class> <!-- com.qa.lazada.tests.ProductPageTest -->
+      </class> <!-- com.qa.lazada.tests.EndToEndPurchaseTest -->
     </classes>
-  </test> <!-- Lazada Product page Test(failed) -->
+  </test> <!-- Lazada End To End Flow Test(failed) -->
 </suite> <!-- Failed suite [Hub Spot Regression Suite] -->

@@ -1,5 +1,10 @@
 package com.qa.lazada.util;
 
+/**
+ * 
+ * @author Sumit
+ *	used to GET and SET user credentials programatically.
+ */
 public class Credentials {
 
 	String appUsername;

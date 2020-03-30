@@ -1,18 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 
-<suite name="Hub Spot Regression Suite">
+<suite name="Lazada Regression Suite">
+
+
+	<!-- ALL LISTENERS SPECIFICATIONS -->
 
 	<listeners>
-		<listener class-name = "com.qa.lazada.listeners.ExtentReportListener"/>		
+		<listener class-name = "com.qa.lazada.listeners.ExtentReportListener"/>	
 	</listeners>
 	
 
+
+
+
+
+	<!-- ALL TESTS SPECIFICATIONS -->
+	
 	<test name="Lazada End To End Flow Test">
 		<parameter name="browser" value="chrome"></parameter>	
 			<classes>
 				<class name="com.qa.lazada.tests.EndToEndPurchaseTest"/>						
 			</classes>	
 	</test>
+
+
+
+
+
 	
 </suite>

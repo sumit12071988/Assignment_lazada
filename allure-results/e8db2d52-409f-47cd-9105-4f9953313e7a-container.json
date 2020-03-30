@@ -1,1 +1,0 @@
-{"uuid":"e8db2d52-409f-47cd-9105-4f9953313e7a","name":"Lazada Functional Regression Test","children":["5e9d234e-e3d1-4971-8eea-25405f1abb09"],"befores":[{"name":"setUp","status":"passed","stage":"finished","description":"","steps":[],"attachments":[],"parameters":[],"start":1583751116751,"stop":1583751151577}],"afters":[],"links":[],"start":1583751116707,"stop":1583751272861}

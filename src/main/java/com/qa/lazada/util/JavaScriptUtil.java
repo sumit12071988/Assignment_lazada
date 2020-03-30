@@ -235,9 +235,9 @@ public class JavaScriptUtil {
 			js.executeScript("document.getElementById('" + name + "').value='"+value+"'");
 		}
 		
-		// For scenarios where Webpage is in loading state. we can use the JS cript for document.readyState
 
-	
+
+		// For scenarios where Webpage is in loading state. we can use the JS cript for document.readyState	
 		//***********************************************************************************************************//
 		
 		/**

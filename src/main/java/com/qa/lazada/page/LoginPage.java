@@ -1,15 +1,9 @@
 package com.qa.lazada.page;
 
-import java.util.Iterator;
-import java.util.Set;
-
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.WebElement;
-import org.openqa.selenium.interactions.Actions;
 
 import com.qa.lazada.base.BasePage;
-import com.qa.lazada.util.Constants;
 import com.qa.lazada.util.Credentials;
 import com.qa.lazada.util.ElementUtil;
 import com.qa.lazada.util.JavaScriptUtil;
@@ -56,15 +50,19 @@ public class LoginPage extends BasePage {
 		
 		elementUtil.doClick(googlePlus);
 		
-		Set<String> handles = driver.getWindowHandles();
-		Iterator<String> it = handles.iterator();
-		String parentWindowId = it.next();
-		System.out.println("Parent Window Id is: " + parentWindowId);
-		String childWindowID = it.next();
-		System.out.println("Child Window ID is: " + childWindowID);
+		Thread.sleep(5000);
 		
-		driver.switchTo().window(childWindowID);		// Now driver is at ChildWindow
-		System.out.println(driver.getTitle());
+//	Skipping WINDOW SWITHCING LOGIC since Lazada is opening the Google signin on same WebPage
+		
+//		Set<String> handles = driver.getWindowHandles();
+//		Iterator<String> it = handles.iterator();
+//		String parentWindowId = it.next();
+//		System.out.println("Parent Window Id is: " + parentWindowId);
+//		String childWindowID = it.next();
+//		System.out.println("Child Window ID is: " + childWindowID);
+//		
+//		driver.switchTo().window(childWindowID);		// Now driver is at ChildWindow
+//		System.out.println(driver.getTitle());
 		
 		elementUtil.doSendKeys(userName, "deals4sumit@gmail.com");
 		elementUtil.doClick(userNameBtn);
@@ -74,7 +72,7 @@ public class LoginPage extends BasePage {
 		Thread.sleep(3000);
 		elementUtil.doClick(userNameBtn);
 		
-		driver.switchTo().window(parentWindowId);
+		//driver.switchTo().window(parentWindowId);
 		
 		Thread.sleep(10000);
 		

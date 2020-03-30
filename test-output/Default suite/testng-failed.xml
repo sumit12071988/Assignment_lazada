@@ -3,13 +3,17 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.qa.lazada.tests.LoginPageTest">
+      <class name="com.qa.lazada.tests.EndToEndPurchaseTest">
         <methods>
+          <include name="verifyProductPageTitle"/>
           <include name="setUp"/>
+          <include name="verifyProfilePageTitleTest"/>
+          <include name="verifyhomePageTitle"/>
           <include name="tearDown"/>
           <include name="verifyLoginPageTitleTest"/>
+          <include name="verifyCheckoutPageTitle"/>
         </methods>
-      </class> <!-- com.qa.lazada.tests.LoginPageTest -->
+      </class> <!-- com.qa.lazada.tests.EndToEndPurchaseTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

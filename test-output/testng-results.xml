@@ -2,12 +2,12 @@
 <testng-results skipped="0" failed="0" ignored="0" total="5" passed="5">
   <reporter-output>
   </reporter-output>
-  <suite name="Hub Spot Regression Suite" duration-ms="92756" started-at="2020-03-10T18:38:18 SGT" finished-at="2020-03-10T18:39:51 SGT">
+  <suite name="Hub Spot Regression Suite" duration-ms="56165" started-at="2020-03-30T13:58:56 SGT" finished-at="2020-03-30T13:59:53 SGT">
     <groups>
     </groups>
-    <test name="Lazada End To End Flow Test" duration-ms="92756" started-at="2020-03-10T18:38:18 SGT" finished-at="2020-03-10T18:39:51 SGT">
+    <test name="Lazada End To End Flow Test" duration-ms="56165" started-at="2020-03-30T13:58:56 SGT" finished-at="2020-03-30T13:59:53 SGT">
       <class name="com.qa.lazada.tests.EndToEndPurchaseTest">
-        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:com.qa.lazada.tests.EndToEndPurchaseTest@74a195a4]" name="setUp" is-config="true" duration-ms="22580" started-at="2020-03-10T18:38:18 SGT" finished-at="2020-03-10T18:38:40 SGT">
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:com.qa.lazada.tests.EndToEndPurchaseTest@400d912a]" name="setUp" is-config="true" duration-ms="13857" started-at="2020-03-30T13:58:56 SGT" finished-at="2020-03-30T13:59:10 SGT">
           <params>
             <param index="0">
               <value>
@@ -18,27 +18,27 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="verifyLoginPageTitleTest()[pri:1, instance:com.qa.lazada.tests.EndToEndPurchaseTest@74a195a4]" name="verifyLoginPageTitleTest" duration-ms="755" started-at="2020-03-10T18:38:40 SGT" description="Verify Login Page Title Test....!!!" finished-at="2020-03-10T18:38:41 SGT">
+        <test-method status="PASS" signature="verifyLoginPageTitleTest()[pri:1, instance:com.qa.lazada.tests.EndToEndPurchaseTest@400d912a]" name="verifyLoginPageTitleTest" duration-ms="303" started-at="2020-03-30T13:59:10 SGT" description="Verify Login Page Title Test....!!!" finished-at="2020-03-30T13:59:11 SGT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyLoginPageTitleTest -->
-        <test-method status="PASS" signature="verifyProfilePageTitleTest()[pri:2, instance:com.qa.lazada.tests.EndToEndPurchaseTest@74a195a4]" name="verifyProfilePageTitleTest" duration-ms="24780" started-at="2020-03-10T18:38:43 SGT" finished-at="2020-03-10T18:39:08 SGT">
+        <test-method status="PASS" signature="verifyProfilePageTitleTest()[pri:2, instance:com.qa.lazada.tests.EndToEndPurchaseTest@400d912a]" name="verifyProfilePageTitleTest" duration-ms="25227" started-at="2020-03-30T13:59:11 SGT" finished-at="2020-03-30T13:59:36 SGT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyProfilePageTitleTest -->
-        <test-method status="PASS" signature="verifyhomePageTitle()[pri:3, instance:com.qa.lazada.tests.EndToEndPurchaseTest@74a195a4]" name="verifyhomePageTitle" duration-ms="5067" started-at="2020-03-10T18:39:09 SGT" finished-at="2020-03-10T18:39:14 SGT">
+        <test-method status="PASS" signature="verifyhomePageTitle()[pri:3, instance:com.qa.lazada.tests.EndToEndPurchaseTest@400d912a]" name="verifyhomePageTitle" duration-ms="1732" started-at="2020-03-30T13:59:37 SGT" finished-at="2020-03-30T13:59:38 SGT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyhomePageTitle -->
-        <test-method status="PASS" signature="verifyProductPageTitle()[pri:4, instance:com.qa.lazada.tests.EndToEndPurchaseTest@74a195a4]" name="verifyProductPageTitle" duration-ms="20713" started-at="2020-03-10T18:39:15 SGT" finished-at="2020-03-10T18:39:36 SGT">
+        <test-method status="PASS" signature="verifyProductPageTitle()[pri:4, instance:com.qa.lazada.tests.EndToEndPurchaseTest@400d912a]" name="verifyProductPageTitle" duration-ms="8598" started-at="2020-03-30T13:59:39 SGT" finished-at="2020-03-30T13:59:48 SGT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyProductPageTitle -->
-        <test-method status="PASS" signature="verifyCheckoutPageTitle()[pri:5, instance:com.qa.lazada.tests.EndToEndPurchaseTest@74a195a4]" name="verifyCheckoutPageTitle" duration-ms="13025" started-at="2020-03-10T18:39:36 SGT" finished-at="2020-03-10T18:39:49 SGT">
+        <test-method status="PASS" signature="verifyCheckoutPageTitle()[pri:5, instance:com.qa.lazada.tests.EndToEndPurchaseTest@400d912a]" name="verifyCheckoutPageTitle" duration-ms="3231" started-at="2020-03-30T13:59:48 SGT" finished-at="2020-03-30T13:59:52 SGT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyCheckoutPageTitle -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.lazada.tests.EndToEndPurchaseTest@74a195a4]" name="tearDown" is-config="true" duration-ms="953" started-at="2020-03-10T18:39:50 SGT" finished-at="2020-03-10T18:39:51 SGT">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.lazada.tests.EndToEndPurchaseTest@400d912a]" name="tearDown" is-config="true" duration-ms="643" started-at="2020-03-30T13:59:52 SGT" finished-at="2020-03-30T13:59:53 SGT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->

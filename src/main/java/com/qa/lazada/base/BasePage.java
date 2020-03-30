@@ -53,7 +53,10 @@ public class BasePage {
 	
 	
 	/**
-	 * Calling this method will READ the config.properties file by connecting the file (using FileInputStream) and loading the file (using load() method) 
+	 * Calling this method will READ the config.properties file by:
+	 * 		1. LOCATE N CONNECT the file (using FileInputStream)
+	 * 		2. Loading the file (using load() method)
+	 * 
 	 * @return prop
 	 */
 	public Properties init_properties() {
@@ -97,7 +100,7 @@ public class BasePage {
 		//		mvn clean install -Denv=qa
 		//		mvn clean install			--> This will run the the else part (config.properties) file
 			
-		//			Note: In MAVEN, -D is used to setup Environment Variable
+		//			Note: In MAVEN, -D is used to assign data to Environment Variable
 		//			This command will make maven to clean, compile and then execute the project with the environment variable you gave
 		
 
